@@ -4,10 +4,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = 'django-insecure-key'
 DEBUG = True
-ALLOWED_HOSTS = [
-    'my-django-blog.onrender.com',
-    'localhost',  # สำหรับตอนรันบนเครื่อง
-    '127.0.0.1',]
+ALLOWED_HOSTS = [ 'student-register-sxz7.onrender.com' ]
+    
 
 INSTALLED_APPS = [
     'django.contrib.admin',
